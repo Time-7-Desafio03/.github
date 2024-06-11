@@ -1,6 +1,6 @@
 # Projeto de micros serviços para tomada de decisões - README
 
-<img width="30%"  src="./imageREADME/CompassLogo.svg"/>
+<img width="30%"  src="./CompassLogo.svg"/>
 
 Este é o readme de descrição do projeto de tomada de decisões, desenvolvido como parte do estágio na Compass UOL. Este projeto utiliza um conjunto de micro serviços, incluindo gestão de funcionários, gestão de propostas e gestão de resultados, integrados via um gateway. A comunicação entre serviços é realizada através do Open Feign e mensageria via Kafka.
 
