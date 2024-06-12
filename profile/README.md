@@ -166,6 +166,13 @@ E pronto, o projeto já está em funcionamento
 
 #### Funcionários Endpoints
 
+##### Enum para cadastro de funcionário
+```
+GERENTE,
+VENDEDOR,
+CAIXA
+```
+
 
 |       Rota           |    Método    |                   Descrição                    |                                                                         
 |   ---------------     | :----------: |  ----------------------------------------------  |                                                                           
@@ -175,6 +182,12 @@ E pronto, o projeto já está em funcionamento
 |  `http://localhost:8080/api/v1/funcionarios/editar/{cpf}`        |    PATCH       |  Editar funcionário por CPF                    |                                                        
 
 #### Propostas Endpoints
+
+##### Enum para cadastro de voto
+```
+APROVAR,
+REJEITAR
+```
 
 |       Rota           |    Método    |                   Descrição                    |                                                                         
 |   ---------------     | :----------: |  ----------------------------------------------  |                                                                           
