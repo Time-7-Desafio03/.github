@@ -134,6 +134,8 @@ E pronto, o projeto já está em funcionamento
 
 ## Utilização
 
+***Para a realização dos testes das apis de Propostas e Resultados é necessário que os containers do Kafka no docker estejam em execução. E para todas as apis é necessários que o Eureka Server esteja em execução***
+
 *Obs. Para acessos com o Swagger, Actuator e H2 é necessário utilizar a porta aleatória gerada no Eureka Server!*
 
 - Endereço para acesso do Eureka Server: http://localhost:8761;
@@ -187,6 +189,3 @@ E pronto, o projeto já está em funcionamento
 |  `http://localhost:8080/api/v1/resultados`            |    GET      |  Buscar por todas as propostas                               | 
 |  `http://localhost:8080/api/v1/resultados/{propostaTitulo}`            |    GET       |  Buscar por todos as propostas com o mesmo título                             |   
 
-### Testes
-
-Para a realização dos testes das apis de Propostas e Resultados é necessário que os containers do Kafka no docker estejam em execução. E para todas as apis é necessários que o Eureka Server esteja em execução
