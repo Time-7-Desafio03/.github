@@ -98,7 +98,7 @@ Dicas:
 
 ## Instalação
 
-Cria uma pasta com o nome de sua preferência entra nele e executa o CMD dentro desse arquivo
+Crie uma pasta com o nome de sua preferência, entre nela e execute o CMD dentro dessa pasta.
 
 ```CMD
 # Primeiro clona esse repositório
