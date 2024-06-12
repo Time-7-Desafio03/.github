@@ -32,14 +32,14 @@ Este é o readme de descrição do projeto de tomada de decisões, desenvolvido 
 
 ## Itens Obrigatórios
 
-• Utilize Java e Spring Boot com Maven nas mesmas versões dos desafios anteriores;
-• Use o banco de dados H2 para a entrega;
-• Use API GATEWAY como ponto de entrada;
-• Crie um ms para cadastro de funcionários;
-• Crie um ms para cadastro de propostas;
-• Crie um ms para armazenar os resultados e que seja consumidor para receber os dados finais da votação e que forneça uma API Rest para consulta desses resultados;
-• Os micros serviços devem possuir o Spring Actuator em funcionamento;
-• Descreva um README com todos os passos para execução de maneira simples para que mesmo um desenvolvedor com menos experiência consiga executar.
+- Utilize Java e Spring Boot com Maven nas mesmas versões dos desafios anteriores;
+- Use o banco de dados H2 para a entrega;
+- Use API GATEWAY como ponto de entrada;
+- Crie um ms para cadastro de funcionários;
+- Crie um ms para cadastro de propostas;
+- Crie um ms para armazenar os resultados e que seja consumidor para receber os dados finais da votação e que forneça uma API Rest para consulta desses resultados;
+- Os micros serviços devem possuir o Spring Actuator em funcionamento;
+- Descreva um README com todos os passos para execução de maneira simples para que mesmo um desenvolvedor com menos experiência consiga executar.
 
 
 ## Prazo
@@ -62,39 +62,39 @@ Este é o readme de descrição do projeto de tomada de decisões, desenvolvido 
 
 #### 1 - Mensageria e Filas
 
-• O resultado da votação precisa ser informado ao restante da empresa, preferencialmente através de mensagens.
-• Quando a sessão de votação for encerrada, envie uma mensagem com o resultado da votação.
+- O resultado da votação precisa ser informado ao restante da empresa, preferencialmente através de mensagens.
+- Quando a sessão de votação for encerrada, envie uma mensagem com o resultado da votação.
 
 #### 2 - Versionamento da API
 
-• Implementação de mais atributos para armazenar dados (telefone, endereço…);
-• Autenticação JWT;
-• Ter mais de uma replica na configuração do Kafka;
-• endpoint getall e exibição por paginação;
-• Data e hora do voto;
-• Integração com a AWS.
+- Implementação de mais atributos para armazenar dados (telefone, endereço…);
+- Autenticação JWT;
+- Ter mais de uma replica na configuração do Kafka;
+- endpoint getall e exibição por paginação;
+- Data e hora do voto;
+- Integração com a AWS.
 
 ### Critérios a serem avaliados
 
-• Simplicidade no design da solução, evitando o excesso de complexidade.
-• Organização do código.
-• Arquitetura do projeto.
-• Boas práticas de programação, como manutenibilidade e legibilidade.
-• Tratamento de erros e exceções.
-• Explicação breve das escolhas feitas durante o desenvolvimento da solução.
-• Testes unitários e integrados.
-• Uso de testes automatizados e ferramentas de qualidade.
-• Limpeza do código.
-• Documentação do código e da API.
-• Logs da aplicação.
-• Mensagens e organização dos commits.
+- Simplicidade no design da solução, evitando o excesso de complexidade.
+- Organização do código.
+- Arquitetura do projeto.
+- Boas práticas de programação, como manutenibilidade e legibilidade.
+- Tratamento de erros e exceções.
+- Explicação breve das escolhas feitas durante o desenvolvimento da solução.
+- Testes unitários e integrados.
+- Uso de testes automatizados e ferramentas de qualidade.
+- Limpeza do código.
+- Documentação do código e da API.
+- Logs da aplicação.
+- Mensagens e organização dos commits.
 
 *Entregas em Docker são sempre bem-vindas*
 
 Dicas:
-• Realize testes rigorosos em sua solução para evitar bugs.
-• Não inicie o teste sem resolver todas as dúvidas.
-• Esteja ciente de que executaremos a aplicação para testá-la, portanto, forneça instruções claras para sua execução, incluindo qualquer dependência externa necessária.
+- Realize testes rigorosos em sua solução para evitar bugs.
+- Não inicie o teste sem resolver todas as dúvidas.
+- Esteja ciente de que executaremos a aplicação para testá-la, portanto, forneça instruções claras para sua execução, incluindo qualquer dependência externa necessária.
 
 ## Instalação
 
@@ -136,10 +136,10 @@ E pronto, o projeto já está em funcionamento
 
 *Obs. Para acessos com o Swagger, Actuator e H2 é necessário utilizar a porta aleatória gerada no Eureka Server!*
 
-• Endereço para acesso do Eureka Server: http://localhost:8761;
-• Endereço para acesso do Actuator: http://localhost:{porta}/actuator;
-• Endereço para acesso do Swagger: http://localhost:{porta}/swagger-ui.html;
-• Endereço para acesso do Kafdrop: http://localhost:19000.
+- Endereço para acesso do Eureka Server: http://localhost:8761;
+- Endereço para acesso do Actuator: http://localhost:{porta}/actuator;
+- Endereço para acesso do Swagger: http://localhost:{porta}/swagger-ui.html;
+- Endereço para acesso do Kafdrop: http://localhost:19000.
 
 **H2 API Funcionários**
 - Endereço: http://localhost:{porta}/h2-funcionarios;
