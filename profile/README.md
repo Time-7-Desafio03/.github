@@ -125,6 +125,7 @@ $ git clone https://github.com/Time-7-Desafio03/cloud-gateway.git
 ```
 ### Etapas de Inicialização
 Obs. O docker desktop deve estar com os containers do kafka em execução, basta executar o container com o nome da pasta criada;
+Obs. Se o CMD que foi realizado o docker compose up foi finalizado, deve ser realizada a observação descrita acima;
 
 1. eureka-server;
 2. microsserviços funcionarios, propostas e resultados;
